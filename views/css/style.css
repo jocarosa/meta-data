@@ -1,0 +1,13 @@
+#hiddendiv{
+    width              : 40%;
+    background-color   : #F8BBD0;
+    margin-left        : 25%;
+}
+
+.styleSubmit{
+    
+    padding            : 10px;
+    background-color   : #880E4F;
+    color              : white;
+    border-radius      : 12px; 
+}

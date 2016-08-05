@@ -1,0 +1,17 @@
+html
+  head
+    style
+        include css/style.css
+     
+      
+  body
+      form(action='/',method='post', enctype="multipart/form-data")
+   
+        div(id='hiddendiv',data-role='fieldcontain')
+            h1 Upload your file!
+            input(id='hidden_password',type='file',value='file' name="myfile")
+    
+            input(class='styleSubmit' type='submit',value='upload')
+      
+    
+include ./script.jade
